@@ -1,13 +1,14 @@
 from core.monitor import get_battery_status
 from core.logger import log_status
 from core.notifier import check_alerts
-from core.battery_state import update_state
+from core.battery_state import update_state, get_logging_data
 import time
 import config
 
 while True:
     status = get_battery_status()
     update_state(status)
-    log_status(status)
+    logging_data = get_logging_data(status)
+    log_status(logging_data)
     check_alerts(status)
     time.sleep(config.LOG_INTERVAL)

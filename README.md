@@ -16,14 +16,16 @@ Therefore, the tool helps tracks battery health metrics and provides timely noti
 - 🔋 Real-time battery monitoring
 - 📊 Battery health data tracking
 - 🔔 Smart charging/unplugging notifications
-- 📈 Historical battery performance analytics
 - ⚡ Lightweight and efficient operation
+- TODO: 📈 Historical battery performance analytics
+- TODO: 🤖 ML model prediction of battery health 
 
 ## How It Works
 
 The tool continuously monitors your battery level and provides recommendations based on configurable thresholds:
 - **Unplug reminder**: When battery reaches your defined upper threshold (e.g., 80-90%)
 - **Plug reminder**: When battery drops to your defined lower threshold (e.g., 20-30%)
+- **Data Logging**: Log battery health data for 
 
 ## Installation
 
