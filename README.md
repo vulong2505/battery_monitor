@@ -48,6 +48,12 @@ TODO: Finish writing
 ## Data Collection
 
 The tool collects and stores the following battery health metrics:
+- Timestamp
 - Battery percentage over time
+- Plugged status
+- Window's prediction of seconds left on battery
+- Net time left charging at 100%
+- Time since last plug
+- Time since last unplug
 
 TODO: add more data analytics
