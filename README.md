@@ -7,7 +7,7 @@ A lightweight tool that monitors your laptop's battery and provides intelligent 
 After burning through several laptop batteries, my motivation to build this tool is to protect my laptop's lithium battery from the two main causes of degradation:
 
 - **Overcharging**: Staying plugged in at 100% for extended periods
-- **Deep discharge**: Allowing the battery to remain at critically low levels
+- **Deep discharge**: Allowing the battery to remain at 0% for extended periods
 
 Therefore, the tool helps tracks battery health metrics and provides timely notifications about when to plug or unplug my charger, helping me maintain optimal battery health over time.
 
