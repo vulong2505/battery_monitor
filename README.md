@@ -32,8 +32,8 @@ The tool continuously monitors your battery level and provides recommendations b
 ```bash
 git clone https://github.com/vulong2505/battery_monitor         # Clone repo
 cd battery_monitor
-python -m venv venv                                             # Virtual environment
-source venv/bin/activate                                        # On Windows: venv\Scripts\activate
+py -m venv venv                                                 # Virtual environment
+venv\Scripts\activate                                           # On Windows
 pip install -r requirements.txt
 py main.py                                                      # Run program
 ```
