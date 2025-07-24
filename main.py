@@ -16,7 +16,7 @@ def main():
 /____/\_,_/\__/\__/\__/_/  \_, / /_/  /_/\___/_//_/_/\__/\___/_/
                           /___/
 ''')
-    print("Starting Battery Monitor...")
+    print("Battery Monitor running...")
 
     while True:
         status = get_battery_status()
